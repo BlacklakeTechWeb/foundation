@@ -1,0 +1,47 @@
+$primary: '#02B980';
+$fontSub: '#9B9B9B';
+$errorRed: '#F4335B';
+
+.link {
+  display: inline-block;
+  cursor: pointer;
+}
+.link-primary {
+  color: $primary;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.link-grey {
+  color: $fontSub;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.link-default {
+  color: rgba(0, 0, 0, 0.65);
+  &:hover {
+    color: $primary;
+  }
+}
+
+.link-error {
+  color: $errorRed;
+  &:hover {
+    color: $errorRed;
+    opacity: 0.8;
+  }
+}
+
+.linkGroup {
+  .link {
+    margin-right: 20px;
+  }
+}
+
+button .link {
+  color: #fff;
+}
+  

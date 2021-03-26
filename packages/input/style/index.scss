@@ -1,0 +1,35 @@
+.inputHistoryRecordDropdownMenu {
+    max-height: 250px;
+    margin-bottom: 0;
+    padding: 4px 0;
+    padding-left: 0;
+    overflow: auto;
+    list-style: none;
+    outline: none;
+  }
+  
+  .inputHistoryRecordDropdownMenuItem {
+    position: relative;
+    display: block;
+    padding: 5px 12px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .inputHistoryRecordDropdownMenuItem:hover {
+    color: $primary;
+    background-color: #e1faee;
+  }
+  
+  .inputHistoryRecordDropdownWrapper {
+    z-index: 10;
+    position: absolute;
+    background-color: $white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
