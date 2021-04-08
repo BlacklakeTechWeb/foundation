@@ -18,6 +18,6 @@
       "components/*": ["components/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "packages/**/*"],
   "exclude": ["node_modules"]
 }
